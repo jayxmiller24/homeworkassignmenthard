@@ -1,0 +1,6 @@
+.column {
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+    margin: 15px;
+}
