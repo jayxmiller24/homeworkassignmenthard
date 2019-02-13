@@ -3,4 +3,12 @@
     height: 200px;
     transform: rotate(180deg);
     margin: 15px;
+
+}
+
+.row{
+    float: left;
+}
+.row2 {
+    float: right;
 }
