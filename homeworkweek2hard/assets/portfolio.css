@@ -1,14 +1,34 @@
-.column {
-    width: 200px;
-    height: 200px;
-    transform: rotate(180deg);
-    margin: 15px;
-
+.gallery-wrapper {
+    max-width: 960px;
+    min-width: 960px;
+    margin: 450px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.row{
-    float: left;
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
-.row2 {
-    float: right;
+
+.gallery-item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-plate {
+    background: grey;
+    color: #ededed;
+    
+    text-align: center;
+    height: 2em;
+    position: relative;
+    bottom: 50px;
+}
+
+.portfolio-img {
+    
+    
+    transform:rotate(180deg);
 }
