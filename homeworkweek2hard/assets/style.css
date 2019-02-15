@@ -3,7 +3,7 @@
 }
 
 body {
-    width: 960px;
+    
     margin: 0px auto;
     color: #777777;
     background-image: url("images/crosslinedots.png");
@@ -14,12 +14,14 @@ body {
 }
 .container {
     background: white;
+    width: 960px;
+    margin: 0 auto;
 }
 
 .topnav {
     background-color: grey;
     overflow: hidden;
-    width: 960px;
+    
     height: 70px;
     
 }
@@ -63,7 +65,7 @@ footer {
     text-align: center;
     border: 25px;
     padding: 20px;
-    width: 960px;
+    
 
 }
 header{
